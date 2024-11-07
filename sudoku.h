@@ -15,7 +15,7 @@
 #define N 9
 #define N_2 81
 #define N_ROOT 3
-#define DOMAIN {1,2,3,4,5,6,7,8,9}
+#define SUDOKU_DOMAIN {1,2,3,4,5,6,7,8,9}
 #define NBRS 20
 #define PADDING 3
 #define BORDER "|"

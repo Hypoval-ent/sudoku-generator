@@ -104,7 +104,7 @@ void Sudoku::prune(int var, int val) {
 
 void Sudoku::randomize_grid() {
     unsigned seed = time(NULL);
-    std::vector<int> values = DOMAIN;
+    std::vector<int> values = SUDOKU_DOMAIN;
     shuffle(values.begin(), values.end(), std::default_random_engine(seed));
 
     for (int i = 0; i < N; i++) {
